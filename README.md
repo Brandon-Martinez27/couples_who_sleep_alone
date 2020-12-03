@@ -1,21 +1,27 @@
 ![Repo-Header](image)
-# Project Title
+# Couples Who Sleep Alone
+
 ## About the Project
+
+
 ### Goals
-What is the purpose of the project? This project is guidance for users creating an informative readme file for any project. This can be used directly or as inspiration. Tailor it to the needs of the project. Sections can be added or removed.
+- Find what factors influence a couple to sleep in separate beds
+- Build a classification model to predict whether a couple will sleep in separate beds
+- Explore the possiblity of marketing separate beds to couple's that tend to sleep separately
 
 ### Background
-Domain knowledge relevant to project. According to [WiseGeek.com](https://www.wisegeek.com/what-is-a-readme-file.htm),
-> "A readme file is a text file that is often included with software that contains general information or instructions about the software. The specific nature of 
-> this information varies significantly from file to file...There is no general formula for writing a readme, however, and in the end the content depends on 
-> the whims of the developer."
+>In 1927, the Motion Picture Association of America issued “The Don’ts and Be Carefuls.” Item No. 19 in the “be careful” section of the list was “man and woman in bed together” — a scene the organization thought could risk “vulgarity and suggestiveness.” Even decades later on TV, Lucy and Ricky were always shown in separate beds in “I Love Lucy” despite being married offscreen, as well as on it.
+
+>Times have changed. It doesn’t take a data journalist to work out that the chances of you having seen a couple sharing a bed onscreen is high. But the reality of what’s happening offscreen is harder to gauge, tucked away in bedrooms. After all, Anonymous, how many people have you told about your sleeping arrangements?
+
+<p style='text-align: right;'>FiveThirtyEight</p>
 
 ### Deliverables
-The requirements for sharing your project. If possible, include links, such as the link to a presentation.
+- Github Repo w/ Final Notebook and README
+- Class Presentation + Slide Deck
 
 ### Acknowledgments
-Where you got the data, inspiration, etc. 
-> My first inspiration for writing Readme files from Maggie Giust's Heart Failure repository [here](https://github.com/magsgiust/heart_failure).
+- [FiveThirtyEight Article](https://fivethirtyeight.com/features/dear-mona-how-many-couples-sleep-in-separate-beds/)
 
 ## Data Dictionary
 Describe the columns in your final dataset. Use [this link](https://www.tablesgenerator.com/markdown_tables) to easily create markdown tables.
