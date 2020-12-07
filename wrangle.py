@@ -112,8 +112,67 @@ def wrangle_data():
     # lowercase col name
     df_prep = df_prep.rename(columns={'Male': 'male'})
 
-
     return df_prep
+
+def feature_engineering(df):
+    df['long_term'] = np.where(
+        (df['rel_length'] == '11-15 years') | (df['rel_length'] == '16-20 years'), 
+        1, 
+        0)
+
+    df['young'] = np.where(
+        (df['age'] == '18-29'), 
+        1, 
+        0)
+
+    df['hs_or_less'] = np.where(
+        (df['education'] == 'HS degree or less'), 
+        1, 
+        0)
+
+    df['regional'] = np.where(
+        ((df['location'] == 'East South Central') | 
+        (df['location'] == 'Mountain') |
+        (df['location'] == 'South Atlantic')), 
+        1, 
+        0)
+
+    df['esc_610'] = np.where(
+        ((df['location'] == 'East South Central') & 
+        (df['rel_length'] == '6-10 years')), 
+        1, 
+        0)
+
+    df['ma_1620'] = np.where(
+        ((df['location'] == 'Middle Atlantic') & 
+        (df['rel_length'] == '16-20 years')), 
+        1, 
+        0)
+
+    df['mt_1115'] = np.where(
+        ((df['location'] == 'Mountain') & 
+        (df['rel_length'] == '11-15 years')), 
+        1, 
+        0)
+
+    df['midage_hs'] = np.where(
+        ((df['age'] == '30-44') & 
+        (df['education'] == 'HS degree or less')), 
+        1, 
+        0)
+
+    df['esc_bac'] = np.where(
+        ((df['location'] == 'East South Central') & 
+        (df['education'] == 'Bachelor degree')), 
+        1, 
+        0)
+
+    df['pac_hs'] = np.where(
+        ((df['location'] == 'Pacific') & 
+        (df['education'] == 'HS degree or less')), 
+        1,
+        0)
+    return df
 
 
 def split_data(df):
