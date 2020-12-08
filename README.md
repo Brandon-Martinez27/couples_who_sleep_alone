@@ -94,4 +94,8 @@ Python latest version
 Standard
 
 ## Creators
+<<<<<<< HEAD
 Brandon Martinez
+=======
+Brandon Martinez
+>>>>>>> 55c04f7db4efa406ad9df98b3c24215e298d3f46
