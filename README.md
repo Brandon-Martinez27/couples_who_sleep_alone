@@ -1,4 +1,5 @@
-# Couples Who Sleep Alone
+[![Watch the Presentation Here](https://img.youtube.com/vi/1DO59NgiDRw/0.jpg)](https://www.youtube.com/watch?v=1DO59NgiDRw&t=11s)
+
 
 ### Goals
 - Find what factors influence a couple to sleep in separate beds
@@ -51,6 +52,7 @@ Describe the columns in your final dataset. Use [this link](https://www.tablesge
 - Are people with higher degrees sleeping separately?
 - Which census region are couples more likely to sleep seperately?
 - Are people with stressful jobs sleeping separately? *Note: need to do a lot of cleaning for the occupation category. May require NLP to categorize 'Other' reponses. Will do after project is done if time permits*
+
 ### Hypotheses
 I used a Chi$^2$ Test to determine a relationship between my features and my target. All features were categorical
 ```
@@ -88,14 +90,10 @@ Its usually helpful to collect and use more data. Running a survey with more des
 Follow up questions like, "What are the reasons that you sleep in separate beds? Please select all that apply," were excluded due to several null values. Perhaps exploring these as additional variables and making these survey questions mandatory can eliminate a lot of preparation and be useful for analysis.
 
 ### Tools & Requirements
-Python latest version
+Python (latest version)
 
 ## License
 Standard
 
 ## Creators
-<<<<<<< HEAD
 Brandon Martinez
-=======
-Brandon Martinez
->>>>>>> 55c04f7db4efa406ad9df98b3c24215e298d3f46
